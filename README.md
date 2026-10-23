@@ -6,6 +6,7 @@
 [![License: CERN-OHL-S v2](https://img.shields.io/badge/License-CERN--OHL--S%20v2-orange.svg?logo=circuitverse&logoColor=white)](https://ohwr.org/cern_ohl_s_v2.txt)
 ![C++](https://img.shields.io/badge/C%2B%2B-17-blue.svg?logo=c%2B%2B&logoColor=white) 
 ![Python](https://img.shields.io/badge/python-3.11-blue.svg?logo=python&logoColor=white) ![License](https://img.shields.io/badge/license-GPLv3-blue.svg?logo=gnu&logoColor=white)
+![Built with Rust](https://img.shields.io/badge/built%20with-Rust-orange?logo=rust)
 ![GitHub Repo stars](https://img.shields.io/github/stars/KeeganIsCool0/PRISMHybridVision) 
 ![GitHub forks](https://img.shields.io/github/forks/KeeganIsCool0/PRISMHybridVision) ![GitHub release](https://img.shields.io/github/v/release/KeeganIsCool0/PRISMHybridVision) 
 

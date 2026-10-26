@@ -28,11 +28,157 @@ PRISM Hybrid Vision is a digital-analog recording console that combines digital 
   
 </div>
 
-<div align="center">
-
-  
-
-</div>
+<table>
+  <tr>
+    <td width="50%" valign="top">
+      <p>
+        <br><b>48 Input Channels</b>
+      </p>
+      <p>
+        The PRISM Hybrid Includes 48 Input channels and is expandable to 96 Input channels.
+      </p>
+      <p></p>
+    </td>
+    <td width="50%" valign="top">
+      <p>
+        <br><b>Hi-res output</b>
+      </p>
+      <p>
+        USB bit-perfect playback on Android 14 and later, AAudio exclusive
+        mode for DAPs at each track's original rate, and a direct USB driver
+        with native DSD on compatible DACs.
+      </p>
+      <p></p>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <p>
+        <picture>
+          <source media="(prefers-color-scheme: dark)" srcset="assets/readme/features/feature-equalizer-dark.svg">
+          <img src="assets/readme/features/feature-equalizer-light.svg" width="56" height="56" alt="">
+        </picture>
+        <br><b>Equalizer and loudness</b>
+      </p>
+      <p>
+        A multiband equalizer with presets (beta), volume normalization, and
+        ReplayGain scanning based on EBU R128 for single tracks or whole
+        selections.
+      </p>
+      <p></p>
+    </td>
+    <td width="50%" valign="top">
+      <p>
+        <picture>
+          <source media="(prefers-color-scheme: dark)" srcset="assets/readme/features/feature-lyrics-dark.svg">
+          <img src="assets/readme/features/feature-lyrics-light.svg" width="56" height="56" alt="">
+        </picture>
+        <br><b>Lyrics</b>
+      </p>
+      <p>
+        Synced lyrics with word-by-word timing, optional translation and
+        romanization lines, and a reorderable chain of lyrics providers,
+        including Zarz-LRC. Files without lyrics can search
+        online from the player. Pick up to five lines and share them as a card.
+      </p>
+      <p></p>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <p>
+        <picture>
+          <source media="(prefers-color-scheme: dark)" srcset="assets/readme/features/feature-library-dark.svg">
+          <img src="assets/readme/features/feature-library-light.svg" width="56" height="56" alt="">
+        </picture>
+        <br><b>Local library</b>
+      </p>
+      <p>
+        Scan your music folders and browse songs, albums, artists and
+        playlists. Review duplicates, edit metadata and export collections
+        as M3U8.
+      </p>
+      <p></p>
+    </td>
+    <td width="50%" valign="top">
+      <p>
+        <picture>
+          <source media="(prefers-color-scheme: dark)" srcset="assets/readme/features/feature-network-dark.svg">
+          <img src="assets/readme/features/feature-network-light.svg" width="56" height="56" alt="">
+        </picture>
+        <br><b>Network storage</b>
+      </p>
+      <p>
+        Play music from SMB, WebDAV, HTTP / HTTPS and Subsonic / OpenSubsonic servers. HTTPS
+        connections can trust a single approved certificate fingerprint.
+      </p>
+      <p></p>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <p>
+        <picture>
+          <source media="(prefers-color-scheme: dark)" srcset="assets/readme/features/feature-foryou-dark.svg">
+          <img src="assets/readme/features/feature-foryou-light.svg" width="56" height="56" alt="">
+        </picture>
+        <br><b>Made for you</b>
+      </p>
+      <p>
+        Rewind recaps your listening, personalized autoplay learns on your
+        device, music haptics let you feel the beat, and artist pages show
+        upcoming concerts.
+      </p>
+      <p></p>
+    </td>
+    <td width="50%" valign="top">
+      <p>
+        <picture>
+          <source media="(prefers-color-scheme: dark)" srcset="assets/readme/features/feature-look-dark.svg">
+          <img src="assets/readme/features/feature-look-light.svg" width="56" height="56" alt="">
+        </picture>
+        <br><b>Your look</b>
+      </p>
+      <p>
+        Material 3 Expressive or the Mornye theme, Dynamic Color, an AMOLED
+        mode, Material Symbols and layouts for tablets and large screens.
+      </p>
+      <p></p>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <p>
+        <picture>
+          <source media="(prefers-color-scheme: dark)" srcset="assets/readme/features/feature-extensions-dark.svg">
+          <img src="assets/readme/features/feature-extensions-light.svg" width="56" height="56" alt="">
+        </picture>
+        <br><b>Extensions</b>
+      </p>
+      <p>
+        Add metadata and lyrics sources from community extension
+        repositories, then choose their priority. Building one? See the
+        <a href="https://mornye.com/docs">extension documentation</a>.
+      </p>
+      <p></p>
+    </td>
+    <td width="50%" valign="top">
+      <p>
+        <picture>
+          <source media="(prefers-color-scheme: dark)" srcset="assets/readme/features/feature-keep-dark.svg">
+          <img src="assets/readme/features/feature-keep-light.svg" width="56" height="56" alt="">
+        </picture>
+        <br><b>Yours to keep</b>
+      </p>
+      <p>
+        Back up and restore settings, history and playlists. The app is open
+        source, available in 20 languages, and offers an AltStore / SideStore
+        source on iOS.
+      </p>
+      <p></p>
+    </td>
+  </tr>
+</table>
 
 > This project is under active development. Bugs are expected.
 

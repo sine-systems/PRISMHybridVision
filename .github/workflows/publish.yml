@@ -1,4 +1,4 @@
-name: Create and publish a Docker image
+name: Create, Publish, and Sign PRISM Container
 
 on:
   push:
@@ -11,21 +11,26 @@ env:
   IMAGE_NAME: ${{ github.repository }}
 
 jobs:
-  build-and-push-image:
+  build-publish-sign:
     runs-on: ubuntu-latest
     
+    # Hooks the process into your container-publish GitHub environment
     environment: container-publish
     
     permissions:
       contents: read
       packages: write
-      id-token: write
+      id-token: write # Required for keyless OIDC Cosign signing
 
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
 
-      # Set up Docker Buildx (Required for advanced caching features)
+      # Install Cosign for supply-chain security signing
+      - name: Install Cosign
+        uses: sigstore/cosign-installer@v3.5.0
+
+      # Set up Buildx to handle Rust/C++ multi-stage layer caching
       - name: Set up Docker Buildx
         uses: docker/setup-buildx-action@v3
 
@@ -36,6 +41,7 @@ jobs:
           username: ${{ github.actor }}
           password: ${{ secrets.GITHUB_TOKEN }}
 
+      # Automatically extract tagging metadata (tags like :main, :v1.0.0, or commit hashes)
       - name: Extract metadata (tags, labels) for Docker
         id: meta
         uses: docker/metadata-action@v5
@@ -46,15 +52,24 @@ jobs:
             type=semver,pattern={{version}}
             type=sha,format=short
 
-      # Optimized build step utilizing native GitHub Actions caching
+      # Build and push the main Dockerfile using GitHub Actions layer caching backend
       - name: Build and push Docker image
+        id: build-and-push
         uses: docker/build-push-action@v6
         with:
           context: .
+          file: ./Dockerfile
           push: true
           tags: ${{ steps.meta.outputs.tags }}
           labels: ${{ steps.meta.outputs.labels }}
-          # Pulls the cache from GitHub Actions backend
+          # Speeds up subsequent C++/Rust compilation steps by storing layers natively
           cache-from: type=gha
-          # Writes the new cache layers back to GitHub Actions (mode=max saves all layers)
           cache-to: type=gha,mode=max
+
+      # -----------------------------------------------------------
+      # SIGNING PHASE
+      # -----------------------------------------------------------
+      - name: Sign the published Docker image
+        run: |
+          echo "Signing PRISM Hybrid Vision image tagged with: ${{ steps.meta.outputs.tags }}"
+          cosign sign --yes "${{ env.REGISTRY }}/${{ env.IMAGE_NAME }}@${{ steps.build-and-push.outputs.digest }}"

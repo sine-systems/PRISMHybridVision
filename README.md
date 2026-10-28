@@ -51,12 +51,10 @@ PRISM Hybrid Vision is a digital-analog recording console that combines digital 
     </td>
     <td width="50%" valign="top">
       <p>
-        <br><b>Hi-res output</b>
+        <br><b>Modular Architecture</b>
       </p>
       <p>
-        USB bit-perfect playback on Android 14 and later, AAudio exclusive
-        mode for DAPs at each track's original rate, and a direct USB driver
-        with native DSD on compatible DACs.
+        PRISM is designed around replacable hardware modules. Compatable channel and processing cards can be upgraded whithout requiring the entire console to be replaced.
       </p>
       <p></p>
     </td>
@@ -64,32 +62,19 @@ PRISM Hybrid Vision is a digital-analog recording console that combines digital 
   <tr>
     <td width="50%" valign="top">
       <p>
-        <picture>
-          <source media="(prefers-color-scheme: dark)" srcset="assets/readme/features/feature-equalizer-dark.svg">
-          <img src="assets/readme/features/feature-equalizer-light.svg" width="56" height="56" alt="">
-        </picture>
-        <br><b>Equalizer and loudness</b>
+        <br><b>Analog Signal Path</b>
       </p>
       <p>
-        A multiband equalizer with presets (beta), volume normalization, and
-        ReplayGain scanning based on EBU R128 for single tracks or whole
-        selections.
+        Analog processing remains at the center of the audio architecture, allowing the console to retain the characteristics of dedicated analog circuitry. 
       </p>
       <p></p>
     </td>
     <td width="50%" valign="top">
       <p>
-        <picture>
-          <source media="(prefers-color-scheme: dark)" srcset="assets/readme/features/feature-lyrics-dark.svg">
-          <img src="assets/readme/features/feature-lyrics-light.svg" width="56" height="56" alt="">
-        </picture>
-        <br><b>Lyrics</b>
+        <br><b>Digital Control</b>
       </p>
       <p>
-        Synced lyrics with word-by-word timing, optional translation and
-        romanization lines, and a reorderable chain of lyrics providers,
-        including Zarz-LRC. Files without lyrics can search
-        online from the player. Pick up to five lines and share them as a card.
+        Recall, automation, routing, motorized faders, and DAW integration provide the precision and repeatability of a modern digital workflow. 
       </p>
       <p></p>
     </td>
@@ -97,30 +82,19 @@ PRISM Hybrid Vision is a digital-analog recording console that combines digital 
   <tr>
     <td width="50%" valign="top">
       <p>
-        <picture>
-          <source media="(prefers-color-scheme: dark)" srcset="assets/readme/features/feature-library-dark.svg">
-          <img src="assets/readme/features/feature-library-light.svg" width="56" height="56" alt="">
-        </picture>
-        <br><b>Local library</b>
+        <br><b>Selectable Character</b>
       </p>
       <p>
-        Scan your music folders and browse songs, albums, artists and
-        playlists. Review duplicates, edit metadata and export collections
-        as M3U8.
+        Switchable preamp, conversion, and output characteristics allow the console architecture to support different production approaches from a single platform. 
       </p>
       <p></p>
     </td>
     <td width="50%" valign="top">
       <p>
-        <picture>
-          <source media="(prefers-color-scheme: dark)" srcset="assets/readme/features/feature-network-dark.svg">
-          <img src="assets/readme/features/feature-network-light.svg" width="56" height="56" alt="">
-        </picture>
-        <br><b>Network storage</b>
+        <br><b>Immersive Audio</b>
       </p>
       <p>
-        Play music from SMB, WebDAV, HTTP / HTTPS and Subsonic / OpenSubsonic servers. HTTPS
-        connections can trust a single approved certificate fingerprint.
+        Architecture designed to support immersive production workflows including 9.2.6 monitoring. 
       </p>
       <p></p>
     </td>
@@ -128,30 +102,19 @@ PRISM Hybrid Vision is a digital-analog recording console that combines digital 
   <tr>
     <td width="50%" valign="top">
       <p>
-        <picture>
-          <source media="(prefers-color-scheme: dark)" srcset="assets/readme/features/feature-foryou-dark.svg">
-          <img src="assets/readme/features/feature-foryou-light.svg" width="56" height="56" alt="">
-        </picture>
-        <br><b>Made for you</b>
+        <br><b>Touchscreen Control</b>
       </p>
       <p>
-        Rewind recaps your listening, personalized autoplay learns on your
-        device, music haptics let you feel the beat, and artist pages show
-        upcoming concerts.
+        Centralized digital control for routing, processing, recall, and system configuration. 
       </p>
       <p></p>
     </td>
     <td width="50%" valign="top">
       <p>
-        <picture>
-          <source media="(prefers-color-scheme: dark)" srcset="assets/readme/features/feature-look-dark.svg">
-          <img src="assets/readme/features/feature-look-light.svg" width="56" height="56" alt="">
-        </picture>
-        <br><b>Your look</b>
+        <br><b>Dual Compression</b>
       </p>
       <p>
-        Material 3 Expressive or the Mornye theme, Dynamic Color, an AMOLED
-        mode, Material Symbols and layouts for tablets and large screens.
+        Each channel incorporates VCA and Opto compression stages within the channel architecture. 
       </p>
       <p></p>
     </td>
@@ -159,31 +122,19 @@ PRISM Hybrid Vision is a digital-analog recording console that combines digital 
   <tr>
     <td width="50%" valign="top">
       <p>
-        <picture>
-          <source media="(prefers-color-scheme: dark)" srcset="assets/readme/features/feature-extensions-dark.svg">
-          <img src="assets/readme/features/feature-extensions-light.svg" width="56" height="56" alt="">
-        </picture>
-        <br><b>Extensions</b>
+        <br><b>Digital Recall</b>
       </p>
       <p>
-        Add metadata and lyrics sources from community extension
-        repositories, then choose their priority. Building one? See the
-        <a href="https://mornye.com/docs">extension documentation</a>.
+        Save and restore console settings for repeatable production workflows. 
       </p>
       <p></p>
     </td>
     <td width="50%" valign="top">
       <p>
-        <picture>
-          <source media="(prefers-color-scheme: dark)" srcset="assets/readme/features/feature-keep-dark.svg">
-          <img src="assets/readme/features/feature-keep-light.svg" width="56" height="56" alt="">
-        </picture>
-        <br><b>Yours to keep</b>
+        <br><b>Networking</b>
       </p>
       <p>
-        Back up and restore settings, history and playlists. The app is open
-        source, available in 20 languages, and offers an AltStore / SideStore
-        source on iOS.
+        High-channel-count digital audio connectivity for integration with professional studio systems. 
       </p>
       <p></p>
     </td>
